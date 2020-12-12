@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  color:white;
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+
+}
+
+body{
+  background-image: url("homepage.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+header{
+}
+
+ul{
+  background: black;
+  list-style: none;
+  overflow: hidden;
+  text-align: center;
+
+}
+
+li{
+
+}
+
+li a{
+  float: left;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 20px 40px;
+}
+
+li a:hover{
+  background-color: #333;
+}
+
+h2{
+  color: #468fa2;
+
+}
+
+
+.name{
+  float:right;
+}
+
+.welcome-page{
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.last-name{
+  color: #468fa2;
+  background-color: none;
+}
+.welcome-text{
+  display: inline-block;
+}
+
+.welcome-message{
+  font-size: 75px;
+  font-style: italic;
+}
+
+.welcome-subtitle, .welcome-redirect{
+  font-size: 25px;
+  text-align: center;
+}
+
+.welcome-redirect a{
+  color: #468fa2;
+}
+
+.homepicture{
+  width: 250px;
+  display: inline-block;
+  float: right;
+  margin-left: 150px;
+}
+
+.welcome-about{
+  position: fixed;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+
+}
+
+.resume{
+  padding-bottom: 10px;
+}
+.resume-skills{
+  padding-top: 25px;
+}
+
+.resume, .resume-details, .resume-skills{
+  width: 900px;
+  margin: 25px auto;
+  display: flex;
+  background: black;
+  border-left: solid 5px #468fa2;
+}
+
+.resume-left{
+  padding: 0px 20px;
+  width: 150px;
+}
+
+.resume-left .resume-img{
+  text-align: center;
+  padding: 35px 0px;
+}
+
+.resume-img img{
+  width: 100px;
+  border-radius: 30px;
+}
+
+.resume-right {
+  width: calc(100% - 200px);
+}
+
+
+.resume-header .resume-name{
+  font-size: 52px;
+  font-weight: bold;
+  text-transform: uppercase;
+
+}
+
+.resume-header .resume-title{
+  font-size: 300;
+  font-size: 20px;
+}
+
+.resume-about{
+  margin-top: 25px;
+  font-size: 15px;
+}
+
+
+
+.skill-count{
+  float: left;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 15px 40px;
+
+}
+
+.resume-details-title, .skills-title{
+  font-size: 40px;
+  font-weight: 500;
+  color:#468fa2;
+  margin-bottom: 20px;
+
+}
+
+.resume-details .experience-list{
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.resume-details .experience-list .date{
+  width:150px;
+  color: #468fa2;
+  font-weight: 700;
+}
+
+.resume-details .experience-list .info-list{
+  width: calc(100% - 200px);
+  padding-left: 25px;
+  position: relative;
+  text-align: left;
+}
+
+.resume-details .experience-list .info-title{
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #468fa2;
+
+}
+
+.resume-details .experience-list .info-afll{
+  font-style: italic;
+}
+
+.table-header{
+  text-align: center;
+  font-size: 54px;
+  font-weight: 700;
+  color: #468fa2;
+}
+
+.table, .table-header{
+  max-width: 1200px;
+  margin: 25px auto;
+}
+
+table{
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.first-col{
+  width: 200px;
+  text-align: center;
+
+}
+
+td, th{
+  border: 1px solid #468fa2;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(128, 128, 128, 0.4);
+}
+
+tr:nth-child(odd) {
+  background-color: rgb(0, 0, 0, 0.4);
+}
